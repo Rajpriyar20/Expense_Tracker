@@ -1,53 +1,68 @@
-<div class="ml-80 mt-4">
-    <div class="text-fuchsia-950 text-lg">Expenses</div>
+<div class=" mt-4 grid grid-cols-2">
+    <div class="text-fuchsia-950 text-lg ml-80">Expenses</div>
+    <div class="text-fuchsia-950 text-lg ml-16">Transactions</div>
 </div>
-<div class="ml-72 mt-6 grid grid-cols-2 gap-8 mx-10">
-    <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg">
-        <div>
-            <a href="#food" aria-label="Food" class="text-green-500 hover:text-green-800">
-                <i class="fas fa-pizza-slice text-xl"></i>
-            </a>
+<div class="grid grid-cols-2 gap-4">
+    <div class="ml-72 mt-6 grid grid-cols-3 gap-8">
+        <!-- Food Card -->
+        <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+            <div>
+                <a href="#food" aria-label="Food" class="text-green-500 hover:text-green-800 transition-colors duration-300">
+                    <i class="fas fa-pizza-slice text-xl"></i>
+                </a>
+            </div>
+            <div>Food</div>
         </div>
-        <div>Food</div>
-    </div>
-    <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg">
-        <div>
-            <a href="#shopping" aria-label="Shopping" class="text-yellow-500 hover:text-yellow-800">
-                <i class="fas fa-tshirt text-xl"></i>
-            </a>
+    
+        <!-- Shopping Card -->
+        <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+            <div>
+                <a href="#shopping" aria-label="Shopping" class="text-yellow-500 hover:text-yellow-800 transition-colors duration-300">
+                    <i class="fas fa-tshirt text-xl"></i>
+                </a>
+            </div>
+            <div>Shopping</div>
         </div>
-        <div>Shopping</div>
-    </div>
-    <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg">
-        <div>
-            <a href="#travel" aria-label="Travel" class="text-red-500 hover:text-red-800">
-                <i class="fas fa-map-marked-alt text-xl"></i>
-            </a>
+    
+        <!-- Travel Card -->
+        <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+            <div>
+                <a href="#travel" aria-label="Travel" class="text-red-500 hover:text-red-800 transition-colors duration-300">
+                    <i class="fas fa-map-marked-alt text-xl"></i>
+                </a>
+            </div>
+            <div>Travel</div>
         </div>
-        <div>Travel</div>
-    </div>
-    <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg">
-        <div>
-            <a href="#rent" aria-label="Rent" class="text-blue-500 hover:text-blue-800">
-                <i class="fas fa-building text-xl"></i>
-            </a>
+    
+        <!-- Rent Card -->
+        <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+            <div>
+                <a href="#rent" aria-label="Rent" class="text-blue-500 hover:text-blue-800 transition-colors duration-300">
+                    <i class="fas fa-building text-xl"></i>
+                </a>
+            </div>
+            <div>Rent</div>
         </div>
-        <div>Rent</div>
-    </div>
-    <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg">
-        <div>
-            <a href="#medicine" aria-label="Medicine" class="text-pink-500 hover:text-pink-800">
-                <i class="fa fa-medkit text-xl"></i>
-            </a>
+    
+        <!-- Medicine Card -->
+        <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+            <div>
+                <a href="#medicine" aria-label="Medicine" class="text-pink-500 hover:text-pink-800 transition-colors duration-300">
+                    <i class="fa fa-medkit text-xl"></i>
+                </a>
+            </div>
+            <div>Medicine</div>
         </div>
-        <div>Medicine</div>
-    </div>
-    <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg">
-        <div>
-            <a href="#add-new" aria-label="Add New" class="text-gray-500 hover:text-gray-800">
-                <i class="fas fa-plus-circle text-xl"></i>
-            </a>
+    
+        <!-- Add new Card -->
+        <div class="text-center bg-white/80 shadow-lg p-4 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+            <div>
+                <a href="#add-new" aria-label="Add New" class="text-gray-500 hover:text-gray-800 transition-colors duration-300">
+                    <i class="fas fa-plus-circle text-xl"></i>
+                </a>
+            </div>
+            <div>Add New</div>
         </div>
-        <div>Add New</div>
     </div>
+    <app-transaction-graph></app-transaction-graph>
 </div>

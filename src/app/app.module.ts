@@ -9,6 +9,9 @@ import { RightsideComponent } from './rightside/rightside.component';
 import { HeaderComponent } from './header/header.component';
 import { MoneyCardComponent } from './money-card/money-card.component';
 import { ExpenseCardsComponent } from './expense-cards/expense-cards.component';
+import { TransactionGraphComponent } from './transaction-graph/transaction-graph.component';
+import { RecentTransactionsComponent } from './recent-transactions/recent-transactions.component';
+import { InvestmentCardsComponent } from './investment-cards/investment-cards.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ExpenseCardsComponent } from './expense-cards/expense-cards.component';
     RightsideComponent,
     HeaderComponent,
     MoneyCardComponent,
-    ExpenseCardsComponent
+    ExpenseCardsComponent,
+    TransactionGraphComponent,
+    RecentTransactionsComponent,
+    InvestmentCardsComponent
   ],
   imports: [
     BrowserModule,
